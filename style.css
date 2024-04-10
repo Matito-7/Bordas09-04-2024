@@ -1,4 +1,42 @@
 .solid
 {
     border-style: solid;
+
+}
+
+.dotted
+{
+    border-style: dotted;
+}
+
+.tamanho1
+{
+    border-style: solid;
+    border-width: 5px;
+}
+
+.tamanho2
+{
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.vermelho
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.cores
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow red blue forestgreen; /* amarela top; vermelha rigth, azul bottom e verde left*/
+    /*border-top-color: yellow;*/
+}
+
+.abreviada
+{
+    border: 5px groove red;
 }
